@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body,main {
+                background-color: #fef9e7;
+            }
+            #header-img {
+                display: block;
+                margin: auto;
+                width: 30%;
+            }
+            h1, h2, h3, nav, footer {
+                text-align: center;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+
+            h3 {
+                text-decoration: underline wavy red 2px;
+            }
+
+            h2{
+                text-decoration: underline dotted rgb(183, 0, 255) 2px;
+            }
+
+            .food-description {
+                display: block;
+                margin: 0 35% 0 35%;
+            }
+
+            img {
+                width: 300px;
+                display: block;
+                margin: auto;
+            }
+
+            #order-form>form {
+                margin-left: 10%;
+            }
+            
+
+            
+        </style>
+        <title>Resto Menu</title>
+    </head>
+    <body>
+        <header>
+            <img id="header-img" alt="Restaurant Menu Logo" src="https://static.vecteezy.com/system/resources/previews/000/430/684/non_2x/logo-design-of-restaurant-menu-vector.jpg">
+            <h1>
+                LORD OF THE FRIES
+            </h1>
+            <br>
+            <hr>
+            <nav>
+                <a href="#menu">Menu</a>
+                <a href="#order-form">Order Food</a>
+            </nav>
+        </header>
+        <hr>
+        <main>
+            <br><br>
+            <section id="menu">
+                <h2>
+                    MENU
+                </h2>
+                <br>
+                <article>
+                    <img id="peri-peri-fries" alt="Peri Peri Fries with Mayonnaise" src="https://www.chatpataaffair.com/wp-content/uploads/2023/05/peri-peri-fries.jpg2_.jpg">
+                    <h3>
+                        Peri Peri Fries
+                    </h3>
+                    <p class="food-description">
+                        Our peri peri fries are made with fresh-cut potatoes that are fried to a golden crisp. They are then tossed in our signature peri peri sauce, which is a blend of chilies, lemon, onion, garlic, and other spices. Served with a side of mayonnaise for dipping.
+                    </p><br>
+                </article>
+                <article>
+                    <img id="classic-salted-fries" alt="Classic Salted Fries" src="https://cdn.britannica.com/34/206334-050-7637EB66/French-fries.jpg">
+                    <h3>
+                        Classic Salted Fries
+                    </h3>
+                    <p class="food-description">
+                        Crisp and golden, these classic fries are made with fresh-cut potatoes. Seasoned simply with a touch of salt, they're the perfect accompaniment to any burger, sandwich, or on their own.
+                    </p><br>
+                </article>
+                <article>
+                    <img id="carbonated-drink" alt="Carbonated Drink in a glass" src="https://i.pinimg.com/736x/91/57/68/915768b2965c6d3600a0c541a7b26699.jpg">
+                    <h3>
+                        Aerated Drinks (Coke/Fanta/Sprite)
+                    </h3>
+                    <p class="food-description">
+                        Refreshingly crisp and bubbly, our aerated drinks are a timeless classic with a unique, secret flavor profile. Enjoy its bold taste on its own or pair it with your favorite meal.
+                    </p><br>
+                </article>
+            </section>
+            <hr>
+            <section id="order-form">
+                <h2>
+                    PLACE YOUR ORDER
+                </h2>
+                <form>
+                    <label>Peri Peri Fries : </label><input type="number" min="0" max="10">
+                    <br><br>
+                    <label>Classic Salted Fries : </label><input type="number" min="0" max="10">
+                    <br>
+                    <p>Add drinks : </p>
+                    <label>Add Coke</label><input type="checkbox"><br>
+                    <label>Add Sprite</label><input type="checkbox"><br>
+                    <label>Add Fanta</label><input type="checkbox"><br>
+                    <br>
+                    <textarea placeholder="Please let us know any special requests..."></textarea>
+                    <br>
+                    <input type="submit" value="Go To Checkout.">
+                </form>
+            </section>
+        </main>
+    </body>
+    <hr>
+    <footer>
+        <p>
+            Made with ❤️ by Crayons!
+        </p>
+    </footer>
+</html>
